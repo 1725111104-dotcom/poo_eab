@@ -32,7 +32,7 @@ class Coche:
     def reversa(self):
         print("El coche va de reversa")
 coche1 = Coche("Toyota","Corolla", "Rojo", "220 km/h", "Gasolina", 4,
-    "Automática", 4, "470 litros", "$350,000")
+               "Automática", 4, "470 litros", "$350,000")
 coche1.encender()
 coche1.acelerar()
 coche1.tocar_el_claxon()
