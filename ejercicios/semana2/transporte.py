@@ -11,4 +11,16 @@ class Transporte:
   self. numero_llantas = numero_llantas
   self. pais_origen = pais_origen
   self. velocidad_max = velocidad_max
+  print(f"Marca del coche:{self.marca}")
+  print(f"Nombre del modelo:{self.modelo}")
+  print(f"Color:{self.color}")
+  print(f"Precio:{self.precio}")
+  print(f"Peso en kilogramos:{self.peso}")
+  print(f"Número de pasajeros:{self.numero_pasajeros}")
+  print(f"Tipo de combustible:{self.tipo_combustible}")
+  print(f"Número de llantas:{self.numero_llantas}")
+  print(f"País de origen:{self.pais_origen}")
+  print(f"Velocidad máxima:{self.velocidad_max}")
+  def avanzar(self):
+    print(f"
   
