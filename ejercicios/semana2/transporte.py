@@ -22,5 +22,20 @@ class Transporte:
   print(f"País de origen:{self.pais_origen}")
   print(f"Velocidad máxima:{self.velocidad_max}")
   def avanzar(self):
-    print(f"
+    print(f"El transporte avanza")
+  def frenar(self):
+    print(f"El transporte frena")
+  def encender(self):
+    print(f"El transporte enciende")
+  def acelerar(self):
+    print(f"El transporte acelera")
+  def gira(self):
+    print(f"El tranporte gira")
+transporte1 = Transporte("Mercedes", "Sprinter", "Negro", "3500 kg.", 4, "Diésel", 4, "Alemania",
+                         "$800,000")
+transporte1.avanzar()
+transporte1.frenar()
+transporte1.encender()
+transporte1.acelerar()
+transporte1.girar()
   
