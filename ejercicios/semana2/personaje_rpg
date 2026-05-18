@@ -3,3 +3,29 @@ class PersonajeRpg:
                  velocidad, idioma, inteligencia, edad, nombre_apodo):
         self.genero = genero
         self.raza = raza
+        self.equipamiento = equipamiento
+        self.altura = altura
+        self.velocidad = velocidad
+        self.velocidad = velocidad
+        self.idioma = idioma
+        self.inteligencia = inteligencia
+        self.nombre_apodo = nombre_apodo
+        print(f"Género:{self.genero}")
+        print(f"Raza:{self.raza}")
+        print(f"Equipamiento:{self.equipamiento}")
+        print(f"Altura:{self.altura}")
+        print(f"Fuerza:{self.fuerza}")
+        print(f"Velocidad:{self.velocidad}")
+        print(f"Idioma:{self.idioma}")
+        print(f"Inteligencia:{self.inteligencia}")
+        print(f"Edad.{self.edad}")
+        print(f"Nombre o apodo:{self.nombre_apodo}")
+    def correr (self):
+        print(f"Está corriendo")
+
+Lalo = PersonajeRpg("Hombre", "Asiática", "2 pistolas", "32 pixeles", 
+                    "99/999", "6 casillas por turno", "Español", "Alta"
+                    20, "Lalo")
+Lalo.correr()
+
+
