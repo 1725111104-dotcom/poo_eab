@@ -22,10 +22,22 @@ class PersonajeRpg:
         print(f"Nombre o apodo:{self.nombre_apodo}")
     def correr (self):
         print(f"Está corriendo")
+    def saltar (self):
+        print(f"Está saltando")
+    def golpear (self):
+        print(f"Está saltando")
+    def comer (self):
+        print(f"Está comiendo")
+    def agacharse (self):
+        print(f"Está agachándose")
 
 Lalo = PersonajeRpg("Hombre", "Asiática", "2 pistolas", "32 pixeles", 
                     "99/999", "6 casillas por turno", "Español", "Alta"
                     20, "Lalo")
 Lalo.correr()
+Lalo.saltar()
+Lalo.golpear()
+Lalo.comer()
+Lalo.agacharse()
 
 
