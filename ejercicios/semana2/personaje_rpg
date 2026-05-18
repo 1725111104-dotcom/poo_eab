@@ -1,0 +1,5 @@
+class PersonajeRpg:
+    def __init__(self, genero, raza, equipamiento, altura, fuerza,
+                 velocidad, idioma, inteligencia, edad, nombre_apodo):
+        self.genero = genero
+        self.raza = raza
