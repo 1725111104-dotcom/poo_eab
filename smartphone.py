@@ -25,18 +25,18 @@ class Smartphone:
 
     def llamar (self):
         print("Esta llamando")
-    def mensajes (self):
+    def mensajear (self):
         print("Esta mensajeando")
-    def juegos (self):
+    def juegar (self):
         print("Esta jugando")
-    def fotos (self):
+    def fotografiar (self):
         print("Esta tomando fotos")
-    def videos (self):
+    def videar (self):
         print("Esta videando")
 S30 = Smartphone(9.1, 150, "Rectangular", "Snapdragon 8 gen", 16, 200,
                  4000, 1000, 8.8, 3)
 S30.llamar()
-S30.mensajes()
-S30.juegos()
-S30.fotos()
-S30.videos()
+S30.mensajear()
+S30.juegar()
+S30.fotografiar()
+S30.videar()
