@@ -34,7 +34,7 @@ class Banco:
     def prestamo (self):
         print("Se realizó un prestamo")
 
-    def transferencia (self):
+    def transferir (self):
         print("Se hizo la transferencia con éxito")
 
     def depositar (self):
@@ -46,5 +46,5 @@ acme = Banco (10000, None, None, "ACME 0.1", "ACME", 10000,
 acme.retirar()
 acme.pagar()
 acme.prestamo()
-acme.transferencia()
+acme.transferir()
 acme.depositar()
