@@ -13,16 +13,16 @@ class Libro:
         self.categoria = categoria
         self.ilustrado = ilustrado
 
-        print(f"El color del libro es:{self.color}")
-        print(f"Número de páginas:{self.no_paginas}")
-        print(f"Nombre del autor:{self.autor}")
-        print(f"Año de publicación:{self.anio}")
-        print(f"Nombre de la editorial:{self.editorial}")
-        print(f"Material de la pasta:{self.material_portada}")
-        print(f"Título del libro:{self.titulo}")
-        print(f"Código de identificación:{self.codigo}")
-        print(f"Categoría:{self.categoria}")
-        print(f"¿Está ilustrado?:{self.ilustrado}")
+        print(f"El color del libro es: {self.color}")
+        print(f"Número de páginas: {self.no_paginas}")
+        print(f"Nombre del autor: {self.autor}")
+        print(f"Año de publicación: {self.anio}")
+        print(f"Nombre de la editorial: {self.editorial}")
+        print(f"Material de la pasta: {self.material_portada}")
+        print(f"Título del libro: {self.titulo}")
+        print(f"Código de identificación: {self.codigo}")
+        print(f"Categoría: {self.categoria}")
+        print(f"¿Está ilustrado?: {self.ilustrado}")
 
     def leer (self):
         print("Leer el libro")
