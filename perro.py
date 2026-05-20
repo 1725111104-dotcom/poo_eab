@@ -1,16 +1,16 @@
 class Perro:
-    def __init__(self, nombre, raza, color, edad, peso, tamaño,
-                 tipo_alimento, energia, dueño, precio):
+    def __init__(self, nombre, raza, color, edad, peso, tamano,
+                 tipo_alimento, energia, dueno, precio):
 
         self.nombre = nombre
         self.raza = raza
         self.color = color
         self.edad = edad
         self.peso = peso
-        self.tamaño = tamaño
+        self.tamano = tamano
         self.tipo_alimento = tipo_alimento
         self.energia = energia
-        self.dueño = dueño
+        self.dueno = dueno
         self.precio = precio
 
         print(f"Nombre del perro: {self.nombre}")
@@ -18,10 +18,10 @@ class Perro:
         print(f"Color: {self.color}")
         print(f"Edad: {self.edad}")
         print(f"Peso: {self.peso}")
-        print(f"Tamaño: {self.tamaño}")
+        print(f"Tamaño: {self.tamano}")
         print(f"Tipo de alimento: {self.tipo_alimento}")
         print(f"Nivel de energía: {self.energia}")
-        print(f"Dueño: {self.dueño}")
+        print(f"Dueño: {self.dueno}")
         print(f"Precio: {self.precio}")
 
     def ladrar(self):
@@ -42,7 +42,7 @@ class Perro:
 
 perro1 = Perro(
     "Max", "Labrador", "Café", "3 años", "30 kg",
-    "Grande", "Croquetas", "Alta", "Carlos", "$8,000"
+    "Grande", "Croquetas", "Alta", "Eduardo", "$8,000"
 )
 
 perro1.ladrar()
