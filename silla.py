@@ -1,13 +1,13 @@
 class SillaReclinable:
     def __init__(self, material, color, tipo_tela, altura, ancho,
-                 peso_maximo, reclinable, reposabrazos, marca, precio):
+                 peso, reclinable, reposabrazos, marca, precio):
 
         self.material = material
         self.color = color
         self.tipo_tela = tipo_tela
         self.altura = altura
         self.ancho = ancho
-        self.peso_maximo = peso_maximo
+        self.peso = peso
         self.reclinable = reclinable
         self.reposabrazos = reposabrazos
         self.marca = marca
@@ -18,7 +18,7 @@ class SillaReclinable:
         print(f"Tipo de tela: {self.tipo_tela}")
         print(f"Altura: {self.altura}")
         print(f"Ancho: {self.ancho}")
-        print(f"Peso máximo soportado: {self.peso_maximo}")
+        print(f"Peso máximo soportado: {self.peso}")
         print(f"¿Es reclinable?: {self.reclinable}")
         print(f"¿Tiene reposabrazos?: {self.reposabrazos}")
         print(f"Marca: {self.marca}")
