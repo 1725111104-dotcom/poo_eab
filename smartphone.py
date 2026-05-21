@@ -33,6 +33,7 @@ class Smartphone:
         print("Esta tomando fotos")
     def videar (self):
         print("Esta videando")
+        
 s30 = Smartphone(9.1, 150, "Rectangular", "Snapdragon 8 gen", 16, 200,
                  4000, 1000, 8.8, 3)
 s30.llamar()
