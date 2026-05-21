@@ -1,6 +1,6 @@
 class Libro:
-    def __init__ (self, color, no_paginas, autor, anio, editorial, material_pasta,
-                  titulo, codigo, categoria, ilustrado):
+    def __init__ (self, color, no_paginas, autor, anio, editorial, 
+                  material_pasta, titulo, codigo, categoria, ilustrado):
         
         self.color = color
         self.no_paginas = no_paginas
