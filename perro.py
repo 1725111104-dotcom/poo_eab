@@ -40,10 +40,8 @@ class Perro:
         print("El perro mueve la cola")
 
 
-perro1 = Perro(
-    "Max", "Labrador", "Café", "3 años", "30 kg",
-    "Grande", "Croquetas", "Alta", "Eduardo", "$8,000"
-)
+perro1 = Perro("Max", "Labrador", "Café", "3 años", "30 kg",
+    "Grande", "Croquetas", "Alta", "Eduardo", "$8,000")
 
 perro1.ladrar()
 perro1.correr()

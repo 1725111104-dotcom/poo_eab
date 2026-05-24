@@ -36,5 +36,13 @@ Sincronizar los cambios entre el repositorio (la rama principal).
 ````shell
 git push -u origin main
 ````
+## 5. Agregar **Docstring** a los métodos (*Documentar*)
+
+Agregar documentación a los métodos con una descripción (qué hace
+para qué sirve, qué datos recibimos, qué significan y que vamos a 
+regresar), argumentos y valores de retorno.
 
 
+
+ 
+ 
